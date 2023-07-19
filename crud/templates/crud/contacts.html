@@ -1,0 +1,11 @@
+<div class="container">
+  <form method="post">
+    {%csrf_token%}
+    <p>Name</p>
+    <input type="text" value="" name="name" required />
+
+    <p>Email</p>
+    <input type="email" name="email" required />
+    <button type="submit">Submit</button>
+  </form>
+</div>
